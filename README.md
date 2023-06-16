@@ -35,3 +35,12 @@ I want to thank all the community for their inputs that shaped OpenBullet into w
 # Contact
 The best way to contact me is through the [official forum](https://discourse.openbullet.dev/u/Ruri). I'm not on discord / telegram.
 If you need to contact me via mail for any reason you can send me a message here: `ruri [at] openbullet (dot) dev`. I don't check it very often so be patient please.
+
+# Run with Docker
+Once Docker and Docker-compose installed in your machine. Execute the simple command:
+
+``` docker-compose up ``` to execute your project - then access http://localhost:8069
+
+``` docker-compose up -d ``` to execute the project in deamon mode 
+
+
