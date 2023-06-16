@@ -11,7 +11,8 @@ services:
         # This currently assumes your on linux and want the folder in the same location as the docker-compose file
         # You can set a windows dir like 'C:/OB2/UserData/:/app/UserData/' but it will always be 'local dir:docker dir'
             - './UserData:/app/UserData/'
-        image: 'openbullet/openbullet2:latest'
+        # image: 'openbullet/openbullet2:latest'
+        build: .
 
     # Watchtower will auto update OB2 for you when it sees a new release
     watchtower:
