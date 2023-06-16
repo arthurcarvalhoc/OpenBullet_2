@@ -39,6 +39,9 @@ If you need to contact me via mail for any reason you can send me a message here
 # Run with Docker
 Once Docker and Docker-compose installed in your machine. Execute the simple command:
 
+Docker-compose install guide on linux - [tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04)
+
+
 ``` docker-compose up ``` to execute your project - then access http://localhost:8069
 
 ``` docker-compose up -d ``` to execute the project in deamon mode 

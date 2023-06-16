@@ -14,6 +14,7 @@ services:
         # image: 'openbullet/openbullet2:latest'
         build: .
 
+
     # Watchtower will auto update OB2 for you when it sees a new release
     watchtower:
         image: containrrr/watchtower
@@ -30,3 +31,4 @@ services:
 
 volumes:
     UserData:
+
