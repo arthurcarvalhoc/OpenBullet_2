@@ -18,6 +18,7 @@ RuriLib/log.txt
 *.user
 *.userosscache
 *.sln.docstates
+*.orig
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
